@@ -1,0 +1,6 @@
+name,age=input("Enter ur name and age seperated by space\n").split()
+print(name+" "+str(age))
+name,age=input("Enter ur name and age seperated by space\n").split(" ")
+print(name+" "+str(age))
+name,age=input("Enter ur name and age seperated by comma\n").split(",")
+print(name+" "+str(age))
